@@ -57,3 +57,27 @@
     object-fit: cover;
     object-position: center;
 }
+.formore{
+    width: 100%;
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.formore a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: .7em .2em;
+    color: #2b2a2a;
+    gap:.4em;
+    font-weight: 800;
+    border-bottom: 1px solid #2b2a2a60;
+    border-top: 1px solid #2b2a2a60;
+    box-shadow: 2px 3px 5px 1px rgb(201, 200, 200);
+    transition: 0.8s ease-in-out;
+}
+.formore a:hover{
+    transform: scale(0.9);
+    transition: 0.8s ease-in-out;
+}

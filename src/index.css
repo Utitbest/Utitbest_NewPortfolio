@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap'); */
 :root{
   --pink: #E31F71;
   --black: #212121;
@@ -11,7 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Outfit', sans-serif; */
+  /* font-family: 'Alegreya', sans-serif; */
   font-family: 'Red Hat Display', sans-serif;
 }
 body{

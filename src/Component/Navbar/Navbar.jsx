@@ -1,10 +1,18 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import './Navbar.css'
 
 
 const Navbar = () => {
+
+  const [navcolor, setCondi] = useState(false)
+  useEffect(()=>{
+      window.addEventListener('scroll', ()=>{
+        window.scrollY > 50 ? setCondi(true) : setCondi(false)
+      })
+  },[])
+
   return (
-    <nav className='navbar'>
+    <nav className={ `navbar ${navcolor ? 'newColor' : ''}`}>
        <a className="logo" href="/#home"><span>&lt;Utitbest </span><span>Akpan/&gt;</span></a>
         <ul className="nav-links">
             <label htmlFor="switch" className='black-white'></label>
