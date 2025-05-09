@@ -3,10 +3,12 @@ import Home from "./Home/Home";
 import Education from "./Education/Education";
 import Skills from "./Skills/Skills";
 import Bio from "./Bio/Bio";
+import Project from "./Project/Project";
 export{
     Navbar,
     Home,
     Education,
     Skills,
-    Bio
+    Bio,
+    Project
 }
