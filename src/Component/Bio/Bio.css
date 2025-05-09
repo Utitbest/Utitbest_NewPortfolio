@@ -1,0 +1,35 @@
+.bio{
+    display: block;
+    padding: 4em 50px;
+}
+
+.welcomeshak {
+  display: inline-block;
+  animation: wave 2s infinite;
+  transform-origin: 70% 70%;
+  font-size: .9em ;
+}
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+.aboutme{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.decription {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+}
+.decription > div span{
+    font-weight: 600;
+}

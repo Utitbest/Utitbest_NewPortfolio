@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+:root{
+  --pink: #E31F71;
+  --black: #212121;
+  --green: #23ce6b;
+  --blue: #016fb9;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Outfit', sans-serif; */
+  font-family: 'Red Hat Display', sans-serif;
+}
+body{
+  background-color: rgb(245, 245, 245);
+}
+a{
+  text-decoration: none;
+}
+.container{
+  padding: 0 50px; 
+}

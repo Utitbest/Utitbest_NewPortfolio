@@ -1,0 +1,118 @@
+.home{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top:2em ;
+    gap: 2em;
+}
+.Intro {
+    display: block;
+}
+.Intro h5{
+    font-size: 1em;
+    color: var(--black);
+    margin-bottom: .7em;
+}
+.Intro h1{
+    color: var(--black);
+    font-size: 3.5em;
+}
+.issue{
+    font-size: 2.5em;
+}
+.Intro h2{
+    line-height: 1;
+}
+
+.wave-emoji {
+  display: inline-block;
+  animation: wave 2s infinite;
+  transform-origin: 70% 70%;
+}
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.skillmaster{
+    min-width: 400px;
+}
+
+.IconMaster{
+    display: flex;
+    margin-top:2em ;
+    align-items: center;
+    gap: 1em;
+}
+.IconMaster a{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.IconMaster a svg{
+    transition: transform 0.3s ease, fill 0.3s ease;
+    cursor: pointer;
+}
+.IconMaster a svg:hover{
+    transform: scale(1.2);
+}
+.imageContain{
+   width: 100%;
+   overflow: hidden;
+   height: 500px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.imageContain > div{
+    width: 450px;
+    height: 450px;
+    animation: spinner 8s ease-in-out infinite ;
+    box-shadow:rgba(255, 255, 255, 0.342) 0px 0px 0px 11px inset ;
+    background: url('../../assets/utitbest.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+@keyframes spinner {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
+.resume-contactme{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .7em 1.4em;
+    background-color: var(--green);
+    border-radius: 1em;
+    color: #fff;
+}
+.resumes{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .7em 1.4em;
+    color: #fff;
+    border-radius: 1em;
+    background-color: var(--black);
+}
