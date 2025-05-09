@@ -7,7 +7,14 @@ import tailwind from './tailwindcss.svg'
 import Css from './css.svg'
 import firebase from './firebase.svg'
 import utitbest from './utitbest.jpg'
-
+import RealchatMain from './realchamainPage.png'
+import Realchatlogin from './realchatLoginPage.png'
+import Realchatrest from './realchatrestpaswordPage.png'
+import RealchatSign from './realchatsignupPage.png'
+import UtitbestAgecalculator from './UtitbestAgecaculator.png'
+import UtitbestEducity from './utitbestEducity.png'
+import UtitbestFirstReactPro from './Utitbestfirstreactwork.png'
+import UtitbestNewspaper from './Utitbestnewspaper.png'
 export{
     boostrapicon,
     html,
@@ -17,5 +24,13 @@ export{
     tailwind,
     Css,
     firebase,
-    utitbest
+    utitbest,
+    RealchatMain,
+    Realchatlogin,
+    Realchatrest,
+    RealchatSign,
+    UtitbestAgecalculator,
+    UtitbestEducity,
+    UtitbestFirstReactPro,
+    UtitbestNewspaper
 }

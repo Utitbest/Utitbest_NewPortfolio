@@ -2,3 +2,58 @@
     display: block;
     padding: 0 50px;
 }
+.Projectview{
+    display: block;
+    width: 100%;
+
+}
+.projectItems{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 1px 1px 3px 0 rgb(206, 205, 205);
+    background-color: #f1f0f094;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+.projectcontent{
+    display: block;
+}
+.projectcontent h3{
+    font-weight: 900;
+  
+}
+.projectcontent h4{
+    margin: 1em 0;
+}
+.projectcontent ul{
+    padding-left: 1em;
+}
+.projectcontent .preview{
+    margin: 1.4em 0;
+}
+.projectcontent .preview a{
+    padding: .5em 3em;
+    background-color: var(--green);
+    color: #fff;
+    border-radius: .8em;
+    font-weight: 600;
+}
+.projectImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding:0 1em;
+}
+.projectImage div{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    /* box-shadow: 1px 1px 3px 0 rgba(199, 199, 199, 0.753); */
+}
+.projectImage div img{
+    width: 100%;
+    /* height: auto; */
+    object-fit: cover;
+    object-position: center;
+}
