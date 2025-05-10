@@ -1,0 +1,19 @@
+.footer{
+    width: 100%;
+    display: flex;
+    margin-top: 2em;
+    padding: 0 50px;
+}
+.footer .footerCont{
+    width:100%;
+    border-top:1px solid rgb(90, 88, 88) ;
+    display: flex;
+    align-items: center;
+    padding: 2em .0;
+    justify-content:space-between ;
+}
+.footer .footerCont > div{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}

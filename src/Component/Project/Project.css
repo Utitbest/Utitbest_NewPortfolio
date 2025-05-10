@@ -14,6 +14,12 @@
     background-color: #f1f0f094;
     margin-bottom: 1em;
     padding: 1em;
+    transition: 0.5s linear;
+}
+.projectItems:hover{
+    transform: scale(1.04);
+    transition: 0.5s linear;
+    box-shadow: 1px 1px 6px 0px rgb(119 144 130 / 66%);
 }
 .projectcontent{
     display: block;
@@ -49,13 +55,16 @@
     overflow: hidden;
     width: 100%;
     height: auto;
-    /* box-shadow: 1px 1px 3px 0 rgba(199, 199, 199, 0.753); */
 }
 .projectImage div img{
     width: 100%;
-    /* height: auto; */
     object-fit: cover;
     object-position: center;
+   transition: 0.8s ease-in-out;
+}
+.projectImage div img:hover{
+    transform: scale(0.9);
+    transition: 0.8s ease-in-out;
 }
 .formore{
     width: 100%;
