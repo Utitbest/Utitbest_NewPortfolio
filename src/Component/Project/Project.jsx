@@ -72,33 +72,6 @@ const Project = () => {
 
           <div className='projectItems'>
             <div className='projectcontent'>
-              <h3>Utitbest Todo List — Task Management Application</h3>
-              <p>
-               Utitbest Todo List is a web-based application designed
-              to help users manage their daily tasks efficiently. It features a user-friendly
-               interface with a progress bar to track task completion.
-              </p>
-              <h4>Tech Stack</h4>
-              <ul>
-                <li>Html</li>
-                <li>Css</li>
-                <li>Javascript</li>
-                <li>Netlify</li>
-              </ul>
-              <div className='preview'>
-                <a href="https://utitbesttasksystem.netlify.app/" target="_blank">Preview</a>
-              </div>
-            </div>
-
-            <div className='projectImage'>
-              <div>
-                <img src={Todolist} alt="" />
-              </div>
-            </div>
-          </div>
-
-            <div className='projectItems'>
-            <div className='projectcontent'>
               <h3>Portfolio —  My Web Development Porfoil</h3>
               <p>
                Utitbest Todo List is a web-based application designed
