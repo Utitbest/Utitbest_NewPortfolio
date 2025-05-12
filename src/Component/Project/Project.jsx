@@ -72,12 +72,13 @@ const Project = () => {
 
           <div className='projectItems'>
             <div className='projectcontent'>
-              <h3>Portfolio —  My Web Development Porfoil</h3>
+              <h3>Portfolio — My Web Development Portfolio</h3>
               <p>
-               Utitbest Todo List is a web-based application designed
-              to help users manage their daily tasks efficiently. It features a user-friendly
-               interface with a progress bar to track task completion.
-              </p>
+                    The Utitbest Portfolio is a personal website designed to showcase my web development skills,
+                    projects, and experience. It features a clean, responsive layout and smooth navigation for an
+                    engaging user experience. Visitors can explore my work, view project previews, and learn more
+                    about my tech stack and expertise.
+                </p>
               <h4>Tech Stack</h4>
               <ul>
                 <li>React</li>
@@ -86,7 +87,7 @@ const Project = () => {
                 <li>Javascript</li>
               </ul>
               <div className='preview'>
-                <a href="https://utitbesttasksystem.netlify.app/" target="_blank">Preview</a>
+                <a href="https://portfolio-utitbest.netlify.app/" target="_blank">Preview</a>
               </div>
             </div>
 
