@@ -15,8 +15,6 @@ const Navbar = () => {
 
   },[])
 
-
-  
   const toggleHideSeek = () => {
     setBoolen(prev => !prev);
   };
