@@ -28,7 +28,7 @@ const Bio = () => {
     <div className='aboutme'>
         <div className='decription'>
             <div>
-                <span>Hi<utitbest className='welcomeshak'>👋</utitbest>, my name is Utitbest Akpan, and I'm a professional, enthusiastic web developer</span>
+                <span>Hi<div className='welcomeshak'>👋</div>, my name is Utitbest Akpan, and I'm a professional, enthusiastic web developer</span>
 
                 <p className='intromaster'> 
                     with a strong passion for building modern, responsive,
@@ -49,7 +49,7 @@ const Bio = () => {
 
         </div>
 
-        <div style={{width:'100%', display:'flex', alignItems:'center', justifyContent:'center'}}>
+        <div className='lottiboy' style={{width:'100%', display:'flex', alignItems:'center', justifyContent:'center'}}>
             <div ref={container} style={{width: '300px', height:'300px'}}></div>
         </div>
     </div>

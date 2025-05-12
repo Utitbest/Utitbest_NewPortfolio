@@ -36,9 +36,9 @@ const Contact = () => {
   return (
     <div className='contact1' name="contact">
 
-            <div className="Stitle" style={{marginBottom:'2em', marginTop: '2em'}}>
-                <span style={{width: 'unset'}}>Contact me</span>
-                <h3>Let's talk business plain</h3>
+            <div className="Stitle sss" style={{marginBottom:'2em', marginTop: '2em'}}>
+                <span className='oweag' style={{width: 'unset', textAlign:'center'}}>Contact me</span>
+                <h3  style={{textAlign:'center'}}>Let's talk business plain</h3>
             </div>
 
             <div className='contactinfo'>

@@ -14,5 +14,5 @@ export{
     Bio,
     Project,
     Contact,
-    Footer
+    Footer,
 }

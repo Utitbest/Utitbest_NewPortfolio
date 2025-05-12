@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Navbar, Home, Skills, Bio, Project, Contact, Footer } from './Component'
 
 

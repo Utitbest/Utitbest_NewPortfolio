@@ -1,13 +1,13 @@
 import React, {useRef, useState, useEffect} from 'react'
 import './Project.css'
-import {RealchatMain, Realchatlogin, Realchatrest, RealchatSign, UtitbestNewspaper,Todolist} from '../../assets'
+import {RealchatMain, Realchatlogin, Realchatrest, RealchatSign, UtitbestNewspaper,Todolist, portfolioPic} from '../../assets'
 
 const Project = () => {
   return (
     <div className='project'>
-        <div className="Stitle" style={{marginBottom:'1em'}}>
+        <div className="Stitle" style={{marginBottom:'2.5em'}}>
             <span>Projects</span>
-            <h3>My Beautiful Works</h3>
+            <h3 style={{textAlign:'center'}}>My Beautiful Works</h3>
         </div>
 
         <div className='Projectview'>
@@ -70,7 +70,7 @@ const Project = () => {
             </div>
           </div>
 
-                   <div className='projectItems'>
+          <div className='projectItems'>
             <div className='projectcontent'>
               <h3>Utitbest Todo List — Task Management Application</h3>
               <p>
@@ -93,6 +93,33 @@ const Project = () => {
             <div className='projectImage'>
               <div>
                 <img src={Todolist} alt="" />
+              </div>
+            </div>
+          </div>
+
+            <div className='projectItems'>
+            <div className='projectcontent'>
+              <h3>Portfolio —  My Web Development Porfoil</h3>
+              <p>
+               Utitbest Todo List is a web-based application designed
+              to help users manage their daily tasks efficiently. It features a user-friendly
+               interface with a progress bar to track task completion.
+              </p>
+              <h4>Tech Stack</h4>
+              <ul>
+                <li>React</li>
+                <li>Tailwind Css</li>
+                <li>Css</li>
+                <li>Javascript</li>
+              </ul>
+              <div className='preview'>
+                <a href="https://utitbesttasksystem.netlify.app/" target="_blank">Preview</a>
+              </div>
+            </div>
+
+            <div className='projectImage'>
+              <div>
+                <img className='portofi' src={portfolioPic} alt="" />
               </div>
             </div>
           </div>

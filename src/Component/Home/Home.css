@@ -4,19 +4,23 @@
     grid-template-columns: 1fr 1fr;
     padding-top:2em ;
     gap: 2em;
+    padding: 0 50px;
 }
 .Intro {
     display: block;
 }
+
 .Intro h5{
     font-size: 1em;
     color: var(--black);
     margin-bottom: .7em;
 }
+
 .Intro h1{
     color: var(--black);
     font-size: 3.5em;
 }
+
 .issue{
     font-size: 2.5em;
 }
@@ -40,9 +44,7 @@
   100% { transform: rotate(0deg); }
 }
 
-.skillmaster{
-    min-width: 400px;
-}
+
 
 .IconMaster{
     display: flex;
@@ -73,7 +75,7 @@
 .imageContain > div{
     width: 450px;
     height: 450px;
-    animation: spinner 8s ease-in-out infinite ;
+    animation: spinner 9s ease-in-out infinite ;
     box-shadow:rgba(255, 255, 255, 0.342) 0px 0px 0px 11px inset ;
     background: url('../../assets/utitbest.jpg');
    background-repeat: no-repeat;
@@ -115,4 +117,79 @@
     color: #fff;
     border-radius: 1em;
     background-color: var(--black);
+}
+@media (max-width:900px) {
+    .home{
+        grid-template-columns: 1fr;
+    } 
+    .Intro{
+        order: 2;
+    }
+    .imageContain > div{
+        height: 500px;
+        width: 500px;
+    }
+}
+@media (max-width:570px){
+    .imageContain > div{
+        width: 450px;
+        height: 450px;
+    }
+    .home{
+        padding: 2em 30px 0 30px;
+    }
+}
+@media (max-width:500px){
+     .imageContain > div{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media (max-width:450px){
+    .imageContain > div{
+        width: 350px;
+        height: 350px;
+    }
+    .imageContain{
+        justify-content: start;
+    }
+    .home{
+        padding: 0 30px 0 30px;
+    }
+}
+@media (max-width:400px){
+    .imageContain > div{
+        width: 300px;
+        height: 300px;
+        animation: none;
+    }
+}
+@media (max-width: 365px){
+    .resume-contactme{
+        justify-content: space-between;
+    }
+}
+@media (max-width: 350px) {
+    .imageContain > div {
+        width: 270px;
+        height: 280px;
+    }
+    .contact {
+    padding: .5em .4em;
+    font-size: 15px;
+    }
+    .resumes{
+        padding: .5em .9em;
+        font-size: 15px;
+    }
+}
+@media (max-width: 320px){
+    .imageContain > div{
+        width: 250px;
+    }
+}
+@media (max-width: 300px){
+    .imageContain > div{
+        width: 230px;
+    }
 }

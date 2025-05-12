@@ -16,6 +16,8 @@ import UtitbestEducity from './utitbestEducity.png'
 import UtitbestFirstReactPro from './Utitbestfirstreactwork.png'
 import UtitbestNewspaper from './Utitbestnewspaper.png'
 import Todolist from './todolist.png'
+import menuicon from './icons8-menu.svg'
+import portfolioPic from './RealPort.png'
 export{
     boostrapicon,
     html,
@@ -34,5 +36,7 @@ export{
     UtitbestEducity,
     UtitbestFirstReactPro,
     UtitbestNewspaper,
-    Todolist
+    Todolist,
+    menuicon,
+    portfolioPic,
 }

@@ -3,7 +3,7 @@ import './Home.css'
 
 const Home = () => {
   return (
-    <div className='home container'>
+    <div className='home'>
         <div className='Intro'>
             <h5>Hi &nbsp;
                 <span className='wave-emoji'>👋</span>,&nbsp;
@@ -90,7 +90,7 @@ const Home = () => {
              <div className='resume-contactme'>
                  <a href='mailto:utitbesta@gmail.com' className='contact'>Contact Me</a>
 
-                <a href='./Utitofon Resume PDF.pdf' download={true} className='resumes'>Resume</a>
+                <a href='./UTITOFON RESUME(CV).pdf' download={true} className='resumes'>Resume</a>
             </div>
 
         </div>

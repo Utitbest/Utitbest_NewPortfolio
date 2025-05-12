@@ -16,7 +16,7 @@ const Skills = () => {
         path: "./Animation.json", 
       });
       return () => lottie.destroy();
-  }, []);
+    }, []);
 
 
   return (
@@ -95,7 +95,7 @@ const Skills = () => {
         </div>
 
         <div>
-          <p>
+          <p className='ityo'>
             Design and develop interactive user interfaces for web applications,
              build fast and reliable Progressive 
             Web Apps (PWAs) using React, 

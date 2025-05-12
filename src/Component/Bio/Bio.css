@@ -33,3 +33,33 @@
 .decription > div span{
     font-weight: 600;
 }
+
+@media (max-width:750px) {
+  .bio{
+    padding: 4em 30px;
+  }
+}
+@media (max-width:700px) {
+  .aboutme{
+    grid-template-columns: 1fr;
+  }
+  .lottiboy > div{
+    width: 400px !important;
+    height: 400px !important;
+  }
+  .decription{
+    order: 2;
+  }
+}
+@media (max-width:445px){
+  .lottiboy > div{
+    width: 330px !important;
+    height: 330px !important;
+  }
+}
+@media (max-width:380px){
+    .lottiboy > div{
+    width: 100% !important;
+    height: 100% !important;
+  }
+}

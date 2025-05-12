@@ -5,10 +5,8 @@
     margin-top: 5em;
 }
 .contactinfo{
-    /* margin: 80px auto; */
     width: 100%;
      display: flex;
-    /* align-items: center; */
     justify-content: space-between;
 }
 .contact-col{
@@ -72,5 +70,30 @@
     }
     .contact-col{
         padding: 20px;
+    }
+}
+@media (max-width:900px) {
+    .contact1{
+        padding: 0 30px;
+    }
+}
+@media (max-width:845px){
+    .contactinfo{
+        flex-direction: column;
+    }
+    .contactinfo :nth-child(1){
+        order: 2;
+    }
+    .contact-col{
+        padding: 0;
+    }
+}
+@media (max-width:345px){
+    .oweag{
+        font-size: 2em;
+        font-weight: 900;
+    }
+    .sss::after{
+        animation: none;
     }
 }

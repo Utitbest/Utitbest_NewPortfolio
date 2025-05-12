@@ -1,13 +1,27 @@
-import React from 'react'
+import React, {useEffect, useRef}  from 'react'
 import './Footer.css'
+import lottie from "lottie-web";
 
 const Footer = () => {
+     const container = useRef(null);
+
+     useEffect(() => {
+         lottie.loadAnimation({
+         container: container.current,
+         renderer: "svg",
+         loop: true,
+         autoplay: true,
+         path: "./Footer.json", 
+        });
+          return () => lottie.destroy();
+    }, []);
+
   return (
     <div className='footer'>
         <div className='footerCont'>
             <p>© 2025 -  Designed & developed by Utitbest Akpan.</p>
             
-            <span>Made with 💚</span>
+            <span ref={container} style={{width:'40px', height: '40px'}}></span>
 
             <div>
                 <a href="https://github.com/Utitbest" target="_blank" rel="noopener noreferrer">

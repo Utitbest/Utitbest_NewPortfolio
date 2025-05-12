@@ -1,16 +1,12 @@
 .navbar{
     width: 100%;
-    /* min-width: 1200px; */
     background: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    display: block;
     padding: 5px 20px;
     position: sticky;
     top: 0;
     left: 0;
     background-color: rgba(245, 245, 245, 0.314);
-    padding: 1em 0;
     z-index: 100;
 }
 .newColor{
@@ -50,15 +46,23 @@
     left: 4px;
     transition: 320ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
-.navbar ul{
+.navbarOri{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    padding: 1em 0;
+    transition: all 1.2s cubic-bezier(.3,.96,.59,.95);
+}
+.navbarOri ul{
     display: flex;
     align-items: center;
     gap: 1.5em;
 }
-.navbar ul li{
+.navbarOri ul li{
    list-style: none;
 }
-.navbar ul li a{
+.navbarOri ul li a{
     font-size: 1.1em;
     color: var(--black);
 }
@@ -71,3 +75,53 @@
     border-radius: 100px;
 }
 .contactstyle a{color: #fff !important;}
+
+.navonc{
+    width: 100%;
+    display: none;
+    justify-content: space-between;
+}
+
+.navonc span img{
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+}
+
+.showself {
+    max-height: 500px !important; 
+    opacity: 1 !important;
+    padding:0 0 11px 23px !important;
+}
+
+@media (max-width:820px) {
+    .navonc{
+        display: flex;
+    }
+    .dsi{
+        display: none !important;
+    }
+    .navbarOri ul{
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .navbarOri{
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.6s ease-in-out;
+        padding: 0 ;
+        align-items: baseline;
+    }
+}
+@media (max-width:400px) {
+    .logo{
+        font-size: 20px;
+    }
+    .navonc span img{
+        width: 27px;
+        height: 27px;
+    }
+}

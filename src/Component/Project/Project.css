@@ -5,7 +5,7 @@
 .Projectview{
     display: block;
     width: 100%;
-
+    margin-bottom: 2em;
 }
 .projectItems{
     display: grid;
@@ -42,7 +42,16 @@
     background-color: var(--green);
     color: #fff;
     border-radius: .8em;
+    position: relative;
     font-weight: 600;
+    transition: 160s linear;
+}
+.projectcontent .preview a:hover{
+   background: linear-gradient(180deg, #212121, #223129, #212121);
+   transition: 160s linear;
+}
+.portofi{
+    box-shadow: 1px 1px 3px 0 rgb(142 142 142);
 }
 .projectImage{
     display: flex;
@@ -89,4 +98,18 @@
 .formore a:hover{
     transform: scale(0.9);
     transition: 0.8s ease-in-out;
+}
+@media (max-width:1020px) {
+    .projectItems{
+        grid-template-columns: 1fr;
+    }
+    .projectcontent{
+        order: 2;
+    }
+    .projectImage{
+        border-bottom: 1px solid rgb(204, 204, 204);
+    }
+    .project{
+        padding: 0 30px;
+    }
 }

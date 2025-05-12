@@ -22,6 +22,10 @@ body{
 a{
   text-decoration: none;
 }
-.container{
-  padding: 0 50px; 
+html{
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+html::-webkit-scrollbar{
+  display: none;
 }

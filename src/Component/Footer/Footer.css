@@ -17,3 +17,19 @@
     gap: 1em;
     align-items: center;
 }
+
+@media (max-width:900px) {
+    .footer{
+        padding: 0 10px;
+    }
+    .footer .footerCont{
+        flex-direction: column-reverse;
+        padding: .9em 0;
+        gap: .8em;
+    }
+}
+@media (max-width:260px){
+    .footer .footerCont > div{
+        flex-wrap: wrap;
+    }
+}
