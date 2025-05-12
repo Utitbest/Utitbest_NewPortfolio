@@ -13,6 +13,7 @@
     "lottie-web": "^5.12.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-scroll": "^1.9.3",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1"
   },

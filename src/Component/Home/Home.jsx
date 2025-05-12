@@ -3,7 +3,7 @@ import './Home.css'
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='home' name="home"> 
         <div className='Intro'>
             <h5>Hi &nbsp;
                 <span className='wave-emoji'>👋</span>,&nbsp;

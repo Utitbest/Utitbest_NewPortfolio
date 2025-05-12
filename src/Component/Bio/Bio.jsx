@@ -19,7 +19,7 @@ const Bio = () => {
     }, []);
 
   return (
-    <div className='bio'>   
+    <div className='bio' name="Bio">   
     <div className="Stitle" style={{marginBottom:'1em'}}>
         <span>Bio</span>
         <h3> About Me in a Nutshell</h3>

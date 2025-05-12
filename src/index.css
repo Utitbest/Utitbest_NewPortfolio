@@ -23,7 +23,6 @@ a{
   text-decoration: none;
 }
 html{
-  scroll-behavior: smooth;
   overflow-y: scroll;
 }
 html::-webkit-scrollbar{

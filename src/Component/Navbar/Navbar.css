@@ -65,6 +65,7 @@
 .navbarOri ul li a{
     font-size: 1.1em;
     color: var(--black);
+   cursor: pointer;
 }
 .contactstyle{
     display: flex;

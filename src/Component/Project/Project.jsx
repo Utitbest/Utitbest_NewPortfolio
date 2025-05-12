@@ -4,7 +4,7 @@ import {RealchatMain, Realchatlogin, Realchatrest, RealchatSign, UtitbestNewspap
 
 const Project = () => {
   return (
-    <div className='project'>
+    <div className='project' name="project">
         <div className="Stitle" style={{marginBottom:'2.5em'}}>
             <span>Projects</span>
             <h3 style={{textAlign:'center'}}>My Beautiful Works</h3>
