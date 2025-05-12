@@ -11,8 +11,6 @@ const Navbar = () => {
       window.addEventListener('scroll', ()=>{
         window.scrollY > 50 ? setCondi(true) : setCondi(false)
       })
-
-
   },[])
 
   const toggleHideSeek = () => {
