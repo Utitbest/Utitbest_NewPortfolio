@@ -10,17 +10,17 @@ const Home = () => {
                 I'm
             </h5>
             <h2>
-                <span style={{fontSize: '1em'}}>Utitofon Edem</span><br/>
-                <span className='issue'>Akpan</span>
+                {/* <span style={{fontSize: '1em'}}> </span><br/> */}
+                Utitofon Akpan
             </h2>
             <div className='skillmaster'>
-                I'm here to help bring your digital ideas to life —
+                I'm here to help bring your digital ideas to life
                 from sleek user interfaces to full project execution.
                 I specialize in building clean, responsive, and scalable solutions.
                 Whether it's front-end, back-end, or full-stack functionality,
                 you can count on me to turn vision into reality.
                 I'm passionate about problem-solving and clean code.
-                Let’s collaborate and build something impactful —
+                Let’s collaborate and build something impactful
                 your next great project starts here.
             </div>
             <div className='IconMaster'>

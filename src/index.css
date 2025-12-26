@@ -13,11 +13,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Alegreya', sans-serif; */
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: system-ui,"Noto Color Emoji";
+  /* font-family: 'Red Hat Display', sans-serif; */
 }
 body{
   background-color: rgb(245, 245, 245);
+  transition: background-color 0.3s, color 0.3s;
 }
 a{
   text-decoration: none;

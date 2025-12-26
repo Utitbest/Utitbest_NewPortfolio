@@ -5,18 +5,19 @@
     padding-top:2em ;
     gap: 2em;
     padding: 0 50px;
+    padding-top:4em ;
 }
 .Intro {
     display: block;
+    padding-top: 2em;
 }
 
-.Intro h5{
-    font-size: 1em;
-    color: var(--black);
-    margin-bottom: .7em;
+.Intro > h5{
+    font-size: 20px;
+    color: rgb(94, 94, 94);
 }
 
-.Intro h1{
+.Intro > h1{
     color: var(--black);
     font-size: 3.5em;
 }
@@ -24,8 +25,23 @@
 .issue{
     font-size: 2.5em;
 }
+.skillmaster{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(94, 94, 94);
+}
 .Intro h2{
-    line-height: 1;
+    background: #e5e5e5;
+    border-radius: 10px;
+    padding:.01em 0;
+    white-space: nowrap;
+    text-overflow: clip;
+    font-size: clamp(20px, 6vw, 2.5em);
+    text-align: left;
+    text-transform: uppercase;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(326deg, #000000c7, #07588bed, #29e52efc);
 }
 
 .wave-emoji {
@@ -64,6 +80,21 @@
 .IconMaster a svg:hover{
     transform: scale(1.2);
 }
+.IconMaster :nth-child(1) > svg:hover{
+    filter: drop-shadow(2px 2px 4px rgba(46, 46, 46, 0.658));
+}
+.IconMaster :nth-child(2) > svg:hover{
+    filter: drop-shadow(2px 2px 4px #23ce6a9c);
+}
+.IconMaster :nth-child(3) > svg:hover{
+    filter: drop-shadow(2px 2px 4px #1da0f298);
+}
+.IconMaster :nth-child(4) > svg:hover{
+    filter: drop-shadow(2px 2px 4px #0076b57e);
+}
+.IconMaster :nth-child(5) > svg:hover{
+    filter: drop-shadow(2px 2px 4px #1876f280);
+}
 .imageContain{
    width: 100%;
    overflow: hidden;
@@ -77,7 +108,7 @@
     height: 450px;
     animation: spinner 9s ease-in-out infinite ;
     box-shadow:rgba(255, 255, 255, 0.342) 0px 0px 0px 11px inset ;
-    background: url('../../assets/utitbest.jpg');
+    background: url('../../assets/UtitbestUpdatedWhiteshit.png');
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -104,20 +135,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: .7em 1.4em;
+    padding: .7em 2em;
     background-color: var(--green);
-    border-radius: 1em;
+    border-radius: 10px;
     color: #fff;
 }
+
 .resumes{
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    padding: .7em 1.4em;
+    padding: .7em 2em;
     color: #fff;
-    border-radius: 1em;
+    border-radius: 10px;
     background-color: var(--black);
 }
+
+
 @media (max-width:900px) {
     .home{
         grid-template-columns: 1fr;

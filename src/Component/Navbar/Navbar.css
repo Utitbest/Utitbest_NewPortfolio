@@ -63,9 +63,29 @@
    list-style: none;
 }
 .navbarOri ul li a{
-    font-size: 1.1em;
-    color: var(--black);
-   cursor: pointer;
+    font-size: 15px;
+    transition: 2s linear infinite;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.luck::after{
+    content: '';
+    display: block;
+    transition:0.4s linear ;
+    height: 2px;
+    width: 0;
+    background-color: #23ce6b;
+}
+.luck:hover::after{
+    transition: 0.3s linear ;
+    width: 100%;
+}
+.luck:hover{
+    font-weight: 500;
+    text-shadow:-1px -2px 2px #d7e4f9 ;
+    transform: translateY(-1px);
+    color: rgb(94, 94, 94);
 }
 .contactstyle{
     display: flex;
@@ -76,7 +96,9 @@
     border-radius: 100px;
 }
 .contactstyle a{color: #fff !important;}
-
+.contactstyle:hover{
+    filter: drop-shadow(5px 5px 13px #23ce6b61);
+}
 .navonc{
     width: 100%;
     display: none;

@@ -44,10 +44,10 @@ const Navbar = () => {
         <a className="logo dsi" href="#"><span>&lt;Utitbest </span><span>Akpan/&gt;</span></a>
         <ul className="nav-links">
             {/* <label htmlFor="switch" className='black-white'></label> */}
-            <li><Link to="home" smooth={true} offset={-100} duration={500}>Home</Link></li>
-            <li><Link to="Skill" smooth={true} offset={-190} duration={500}>Skills</Link></li>
-            <li><Link to="Bio" smooth={true} offset={-190} duration={500}>Bio</Link></li>
-            <li><Link to="project" smooth={true} offset={-190} duration={500}>Project</Link></li>
+            <li className='luck'><Link to="home" smooth={true} offset={-100} duration={500}>Home</Link></li>
+            <li className='luck'><Link to="Skill" smooth={true} offset={-190} duration={500}>Skills</Link></li>
+            <li className='luck'><Link to="Bio" smooth={true} offset={-190} duration={500}>Bio</Link></li>
+            <li className='luck'><Link to="project" smooth={true} offset={-190} duration={500}>Project</Link></li>
             <li className='contactstyle'><Link to="contact" smooth={true} offset={-100} duration={500}>Contact</Link></li>
         </ul>
       </nav>
